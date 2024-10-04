@@ -1,13 +1,11 @@
-import Button from '@mui/material/Button';
-import Navbar from './Navbar';
+import './App.css'
+import SocialApp from './components/SocialApp'
 
 function App() {
   
   return (
     <>
-    <Navbar/>
-      Welcome
-      <Button variant="contained">Hello world</Button>
+    <SocialApp/>
     </>
   )
 }
